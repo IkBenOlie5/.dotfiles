@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="5.808">
+  <testsuite name="test\markdownlint-custom-rules\alert.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:22" time="1.09" tests="1">
+    <testcase classname=" Alert markdown lint" name=" Alert markdown lint" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\securelinks.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:23" time="0.137" tests="1">
+    <testcase classname=" Secure Links markdown lint" name=" Secure Links markdown lint" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\moniker.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="0.197" tests="1">
+    <testcase classname=" Moniker markdown lint" name=" Moniker markdown lint" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\column.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="0.142" tests="1">
+    <testcase classname=" Column markdown lint" name=" Column markdown lint" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\row.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="0.129" tests="1">
+    <testcase classname=" row markdown lint" name=" row markdown lint" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\zone.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="0.122" tests="1">
+    <testcase classname=" Zone markdown lint" name=" Zone markdown lint" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\markdownlint-custom-rules\syntax.spec.js" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="0.101" tests="1">
+    <testcase classname=" Syntax markdown lint" name=" Syntax markdown lint" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="test\extension.test.ts" errors="0" failures="0" skipped="0" timestamp="2020-06-24T16:52:24" time="1.57" tests="1">
+    <testcase classname="Ensure Chai Mocha Test Samples Run Correctly Hey, true returns true! Incredible." name="Ensure Chai Mocha Test Samples Run Correctly Hey, true returns true! Incredible." time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
