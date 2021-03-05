@@ -2,8 +2,12 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# Distributed revision control system
+brew "git"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Additional completion definitions for zsh

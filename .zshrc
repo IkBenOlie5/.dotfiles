@@ -10,7 +10,6 @@ export ZSH="/Users/oli4/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -70,8 +69,8 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	zsh-autosuggestions
-	k
+  zsh-autosuggestions
+  k
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,3 +101,28 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#pyton scripts
+pycomp() {
+  python3 ~/.python_scripts/compiler.py $PWD/$1
+}
+
+atlas() {
+  python3 ~/.python_scripts/atlas.py $1 $2 $3 $4
+}
+
+# set and change java versions
+removeFromPath() {
+  export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+}
+
+setjdk() {
+  if [ $# -ne 0 ]; then
+    removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+    if [ -n "${JAVA_HOME+x}" ]; then
+      removeFromPath $JAVA_HOME
+    fi
+    export JAVA_HOME=$(/usr/libexec/java_home -v $@)
+    export PATH=$JAVA_HOME/bin:$PATH
+  fi
+}
