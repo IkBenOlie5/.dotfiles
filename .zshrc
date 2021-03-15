@@ -1,16 +1,14 @@
 #exports
-export PATH=$HOME/bin:/usr/local/bin:$PA
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/oli4/.oh-my-zsh"
 
 #options
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true"
+ZSH_THEME="robbyrussell"
 HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=5000
-
-#theme
-ZSH_THEME="robbyrussell"
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
 
 #plugins
 plugins=(
@@ -20,11 +18,8 @@ plugins=(
   virtualenv
 )
 
-setopt autocd beep nomatch
-unsetopt appendhistory extendedglob notify
-bindkey -v
-
 #aliases
+alias c="clear"
 alias q="exit"
 alias sz="source ~/.zshrc"
 alias va="source ./.venv/bin/activate"
@@ -54,6 +49,17 @@ setjdk() {
     export PATH=$JAVA_HOME/bin:$PATH
   fi
 }
+
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' matcher-list 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+zstyle :compinstall filename '/Users/oli4/.zshrc'
+
+autoload -Uz compinit
+compinit
+
+setopt autocd beep nomatch
+unsetopt appendhistory extendedglob notify
+bindkey -v
 
 #sources
 source $ZSH/oh-my-zsh.sh
