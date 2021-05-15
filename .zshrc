@@ -22,8 +22,14 @@ plugins=(
 alias c="clear"
 alias q="exit"
 alias sz="source ~/.zshrc"
-alias va="source ./.venv/bin/activate"
+alias va="source ./bin/activate"
 alias vd="deactivate"
+alias py="python3.9"
+
+#brew services
+alias start="brew services start"
+alias stop="brew services stop"
+alias restart="brew services restart"
 
 #pyhton scripts
 pycomp() {
@@ -50,18 +56,12 @@ setjdk() {
   fi
 }
 
-zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
-zstyle ':completion:*' matcher-list 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:]}={[:upper:]} m:{[:lower:][:upper:]}={[:upper:][:lower:]}'
-zstyle :compinstall filename '/Users/oli4/.zshrc'
-
-autoload -Uz compinit
-compinit
-
-setopt autocd beep nomatch
-unsetopt appendhistory extendedglob notify
+#vim mode
 bindkey -v
+export KEYTIMEOUT=1
 
 #sources
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
