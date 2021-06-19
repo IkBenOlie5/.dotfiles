@@ -1,6 +1,7 @@
 #exports
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/oli4/.oh-my-zsh"
+export PYTHONSTARTUP="$(python3 -m jedi repl)"
 
 #options
 ZSH_THEME="robbyrussell"
@@ -33,11 +34,15 @@ alias restart="brew services restart"
 
 #pyhton scripts
 pycomp() {
-  python3 ~/.python_scripts/compiler.py $PWD/$1
+  python3 ~/.python_scripts/compiler.py $@
 }
 
 atlas() {
-  python3 ~/.python_scripts/atlas.py $1 $2 $3 $4
+  python3 ~/.python_scripts/atlas.py $@
+}
+
+uwuify() {
+  python3 ~/.python_scripts/uwuify.py $@
 }
 
 # set and change java versions
