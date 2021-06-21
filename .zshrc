@@ -4,12 +4,13 @@ export ZSH="/Users/oli4/.oh-my-zsh"
 export PYTHONSTARTUP="$(python3 -m jedi repl)"
 
 #options
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=5000
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
+
 
 #plugins
 plugins=(
@@ -70,3 +71,5 @@ source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
