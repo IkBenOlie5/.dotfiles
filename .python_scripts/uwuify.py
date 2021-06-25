@@ -1,5 +1,6 @@
-import click
 import random
+
+import click
 
 
 def uwuify(text: str) -> str:
@@ -12,22 +13,39 @@ def uwuify(text: str) -> str:
 
         result += word + " "
 
-    result = result.replace("l", "w").replace("r", "w")
+    result = (
+        result.replace("l", "w").replace("r", "w").replace("L", "W").replace("R", "W")
+    )
 
     result += random.choice(("uwu", "owo", "uvu", "^w^"))
     return result
 
 
 @click.command()
-@click.option("--text", "-t", default="", type=str, help=uwuify("The text to uwuify."))
-@click.option("--path", "--file", "-p", "-f", default=False, type=str, help=uwuify("The file to uwuify."))
-def uwuify_command(text, path):
+@click.argument("text", default="")
+@click.option(
+    "--path",
+    "--file",
+    "-p",
+    "-f",
+    default=False,
+    type=str,
+    help=uwuify("The file to uwuify."),
+)
+@click.option(
+    "--save", "-s", default=False, type=str, help=uwuify("Save the result in a file.")
+)
+def uwuify_command(text, path, save):
     if path:
         try:
-            with open(path, "r", encoding="utf-8") as f:
+            with open(path, "r+", encoding="utf-8") as f:
                 text = f.read()
         except Exception:
             return print(uwuify("Unable to open/read file."))
+    if save:
+        with open(save, "w+", encoding="utf-8") as save_file:
+            save_file.write(uwuify(text))
+        exit(0)
     print(uwuify(text))
 
 

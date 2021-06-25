@@ -1,7 +1,12 @@
 #exports
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/Users/oli4/.cargo/bin:$PATH
 export ZSH="/Users/oli4/.oh-my-zsh"
 export PYTHONSTARTUP="$(python3 -m jedi repl)"
+
+
+#quicknav
+eval "$(quicknav init zsh)"
 
 #options
 ZSH_THEME="powerlevel10k/powerlevel10k"
