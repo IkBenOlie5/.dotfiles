@@ -14,8 +14,6 @@ setjdk() {
   fi
 }
 
-
-#python scripts
-uwuify() {
+uwuify(){
   python3 "$HOME/Desktop/programming/python/scripts/bin/uwuify.py" $@
 }
