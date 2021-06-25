@@ -1,6 +1,12 @@
 {
         "shortcuts": [
             {
+                "name": "config",
+                "description": "Config folder.",
+                "location": "~/.config",
+                "calls": ["config", "cf", "conf"]
+            },
+            {
                 "name": "python",
                 "description": "Python projects folder.",
                 "location": "~/Desktop/programming/python/",
