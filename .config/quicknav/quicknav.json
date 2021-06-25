@@ -1,0 +1,25 @@
+{
+        "shortcuts": [
+            {
+                "name": "python",
+                "description": "Python projects folder.",
+                "location": "~/Desktop/programming/python/",
+                "calls": ["py", "python"]
+            },
+            {
+                "name": "javascript_typescript",
+                "description": "Javascript and Typescript projects folder.",
+                "location": "~/Desktop/programming/javascript_typescript/",
+                "calls": ["js", "javascript", "ts", "typescript"]
+            },
+            {
+                "name": "c_c++",
+                "description": "C and C++ projects folder.",
+                "location": "~/Desktop/programming/c_c++/",
+                "calls": ["c", "c++", "cpp"]
+            }
+        ],
+        "options": {
+            "create_missing_directories": true
+        }
+    }
