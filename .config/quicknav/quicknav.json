@@ -23,6 +23,12 @@
                 "description": "C and C++ projects folder.",
                 "location": "~/Desktop/programming/c_c++/",
                 "calls": ["c", "c++", "cpp"]
+            },
+            {
+                "name": "dotfiles",
+                "description": "Dotfiles folder.",
+                "location": "~/.dotfiles",
+                "calls": ["dotfiles", "df", ".files", ".f"]
             }
         ],
         "options": {
