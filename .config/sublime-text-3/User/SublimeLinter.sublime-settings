@@ -1,0 +1,10 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Library/Frameworks/Python.framework/Versions/3.9/bin/mypy"
+        ],
+        "windows": []
+    }
+}

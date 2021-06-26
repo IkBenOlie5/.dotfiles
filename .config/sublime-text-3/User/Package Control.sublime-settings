@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"ColorPicker",
+		"DotENV",
+		"Dracula Color Scheme",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"HTMLBeautify",
+		"isort",
+		"Kite Python Autocomplete",
+		"Package Control",
+		"python-black",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-mypy",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Monokai Pro",
+		"WakaTime",
+	],
+}
