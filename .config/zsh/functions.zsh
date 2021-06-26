@@ -13,7 +13,3 @@ setjdk() {
     export PATH=$JAVA_HOME/bin:$PATH
   fi
 }
-
-uwuify(){
-  python3 "$HOME/Desktop/programming/python/scripts/bin/uwuify.py" $@
-}
