@@ -35,7 +35,6 @@ brew "portaudio"
 brew "postgresql"
 brew "ranger"
 brew "redis", restart_service: true
-brew "sl"
 brew "speedtest-cli"
 brew "stockfish"
 brew "telnet"
