@@ -1,9 +1,0 @@
-[filesystem "Oracle Corporation|15.0.2|/dev/disk1s1"]
-	timestampResolution = 9000 nanoseconds
-	minRacyThreshold = 0 nanoseconds
-[filesystem "Amazon.com Inc.|11.0.10|/dev/disk1s1"]
-	timestampResolution = 19000 nanoseconds
-	minRacyThreshold = 0 nanoseconds
-[filesystem "Amazon.com Inc.|1.8.0_282|/dev/disk1s1"]
-	timestampResolution = 1002 milliseconds
-	minRacyThreshold = 0 nanoseconds
