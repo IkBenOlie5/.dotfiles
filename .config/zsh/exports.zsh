@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 export PYTHONSTARTUP="$(python3 -m jedi repl)"

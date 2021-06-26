@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # set and change java versions
 removeFromPath() {
   export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")

@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
