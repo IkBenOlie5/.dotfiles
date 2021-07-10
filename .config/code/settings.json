@@ -59,7 +59,6 @@
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "workbench.colorTheme": "Dracula",
   "editor.largeFileOptimizations": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   //html
   "html.format.unformatted": "",
   //golang
@@ -73,5 +72,29 @@
   "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
   "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "cSpell.userWords": [
+    "Behaviour",
+    "Deserialization",
+    "Snowflakeish",
+    "aioredis",
+    "asyncio",
+    "cython",
+    "deserializers",
+    "flushdb",
+    "hikari",
+    "itertools"
+  ],
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ]
 }

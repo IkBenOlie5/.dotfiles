@@ -16,6 +16,10 @@ else
   export PATH="$HOME/.cargo/bin:$PATH"
 fi
 
+if [ -d "/Library/Frameworks/Python.framework/Versions/3.9/bin" ]; then
+  export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
+fi
+
 if [ -d "$HOME/Desktop/programming/python/scripts/bin" ]; then
   export PATH="$HOME/Desktop/programming/python/scripts/bin:$PATH"
 fi
