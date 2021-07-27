@@ -3,7 +3,7 @@
             {
                 "name": "config",
                 "description": "Config folder.",
-                "location": "~/.config",
+                "location": "~/.config/",
                 "calls": ["config", "cf", "conf"]
             },
             {
@@ -25,9 +25,15 @@
                 "calls": ["c", "c++", "cpp"]
             },
             {
+                "name": "rust",
+                "description": "Rust projects folder.",
+                "location": "~/Desktop/programming/rust/",
+                "calls": ["rust", "rs"]
+            },
+            {
                 "name": "dotfiles",
                 "description": "Dotfiles folder.",
-                "location": "~/.dotfiles",
+                "location": "~/.dotfiles/",
                 "calls": ["dotfiles", "df", ".files", ".f"]
             }
         ],

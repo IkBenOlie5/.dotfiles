@@ -4,5 +4,5 @@
 [pull]
 	rebase = false
 [core]
-	editor = nvim
+	editor = code
  	excludesFile = ~/.config/git/ignore
