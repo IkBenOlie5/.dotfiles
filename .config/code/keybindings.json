@@ -13,5 +13,23 @@
         "key": "ctrl+shift+v",
         "command": "-office.html.preview",
         "when": "editorTextFocus && editorLangId == 'html'"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "python.runLinting"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "python.sortImports"
     }
 ]

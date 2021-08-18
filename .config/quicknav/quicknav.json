@@ -35,6 +35,12 @@
                 "description": "Dotfiles folder.",
                 "location": "~/.dotfiles/",
                 "calls": ["dotfiles", "df", ".files", ".f"]
+            },
+            {
+                "name": "desktop",
+                "description": "Desktop folder.",
+                "location": "~/Desktop",
+                "calls": ["dt", "desktop", "desk"]
             }
         ],
         "options": {

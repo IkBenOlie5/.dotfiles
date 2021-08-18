@@ -11,41 +11,17 @@
     "--line-length=119",
     "--fast"
   ],
-  "python.sortImports.args": [
-    "--profile=black"
-  ],
   "python.pythonPath": "/usr/local/bin/python3",
   "workbench.editor.untitled.hint": "hidden",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.linting.mypyEnabled": true,
+  "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
-  //"python.linting.pylintEnabled": false,
-  //"python.linting.flake8Enabled": false,
-  //"python.linting.pydocstyleEnabled": false,
-  //"python.linting.pycodestyleEnabled": false,
-  //"python.linting.prospectorEnabled": false,
-  //"python.linting.pylamaEnabled": false,
-  //"python.linting.banditEnabled": false,
-  "python.linting.pycodestyleArgs": [
-    "--ignore=E501"
-  ],
-  "python.linting.flake8Args": [
-    "--ignore=E501"
-  ],
-  "python.linting.pylamaArgs": [
-    "--ignore=E501"
-  ],
-  "python.linting.mypyArgs": [
-    "--ignore-missing-imports",
-    "--follow-imports=silent",
-    "--show-column-numbers"
-  ],
   "python.analysis.completeFunctionParens": true,
   "python.languageServer": "Pylance",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "kite.showWelcomeNotificationOnStartup": false,
   "files.associations": {
     "**/*.html": "html",
     "**/templates/**/*.html": "django-html",
@@ -132,5 +108,9 @@
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
