@@ -109,8 +109,10 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "python.analysis.typeCheckingMode": "basic",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
   }
 }
