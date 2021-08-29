@@ -1,8 +1,8 @@
 [user]
-	name = IkBenOlie5
-	email = olivier@lombok.nl
+name = IkBenOlie5
+email = olivier@lombok.nl
 [pull]
-	rebase = false
+rebase = false
 [core]
-	editor = code
- 	excludesFile = ~/.config/git/ignore
+editor = nvim
+excludesFile = ~/.config/git/ignore

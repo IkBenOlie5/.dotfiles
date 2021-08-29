@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "theme": {
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 100,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "Helvetica Neue",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#282a36",
+        "darkSchemeTextColor": "#f8f8f2",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "#bd93f9",
+        "selectionColor": "#44475a",
+        "styleSystemControls": true
+    },
+    "presets": [],
+    "customThemes": [],
+    "siteList": [],
+    "siteListEnabled": [
+        "draculatheme.com"
+    ],
+    "applyToListedOnly": false,
+    "changeBrowserTheme": true,
+    "notifyOfNews": false,
+    "syncSettings": true,
+    "syncSitesFixes": false,
+    "automation": "",
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "enableForPDF": true,
+    "enableForProtectedPages": true
+}

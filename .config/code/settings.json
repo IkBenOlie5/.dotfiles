@@ -15,7 +15,6 @@
   "workbench.editor.untitled.hint": "hidden",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.linting.mypyEnabled": true,
-  "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
   "python.analysis.completeFunctionParens": true,
   "python.languageServer": "Pylance",
@@ -42,7 +41,7 @@
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.external.osxExec": "Iterm2.app",
+  "terminal.external.osxExec": "Terminal.app",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "workbench.colorTheme": "Dracula",
   "editor.largeFileOptimizations": true,
@@ -55,32 +54,7 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust"
   },
-  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
-  "markdown.preview.fontFamily": "JetBrainsMono Nerd Font",
   "security.workspace.trust.untrustedFiles": "open",
-  "cSpell.userWords": [
-    "Behaviour",
-    "Deserialization",
-    "Snowflakeish",
-    "aiohttp",
-    "aioredis",
-    "apscheduler",
-    "asyncio",
-    "cython",
-    "cythonize",
-    "deserializers",
-    "dotenv",
-    "dotfiles",
-    "flushdb",
-    "guildid",
-    "hikari",
-    "itertools",
-    "pygame",
-    "smembers",
-    "srem",
-    "timeit"
-  ],
   "shellformat.effectLanguages": [
     "shellscript",
     "dockerfile",
@@ -110,5 +84,7 @@
   },
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
-  }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "python.linting.flake8Enabled": true
 }
