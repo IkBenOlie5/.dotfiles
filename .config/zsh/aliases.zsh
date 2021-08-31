@@ -6,6 +6,7 @@ alias sz="source ~/.zshrc"
 alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
 alias py="python3.9"
+alias cat="bat"
 
 #brew services
 alias start="brew services start"
