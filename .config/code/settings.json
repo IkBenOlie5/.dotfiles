@@ -7,10 +7,6 @@
     }
   },
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": [
-    "--line-length=119",
-    "--fast"
-  ],
   "python.pythonPath": "/usr/local/bin/python3",
   "workbench.editor.untitled.hint": "hidden",
   "python.defaultInterpreterPath": "/usr/local/bin/python3",
