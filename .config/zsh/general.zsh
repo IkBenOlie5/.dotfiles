@@ -8,6 +8,7 @@ plugins=(git gitignore virtualenv python vi-mode)
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/etc/profile.d/autojump.sh
 
 if [ -x "$(command -v quicknav)" ]; then
   eval "$(quicknav init zsh)"
