@@ -1,49 +1,83 @@
 {
-        "shortcuts": [
-            {
-                "name": "config",
-                "description": "Config folder.",
-                "location": "~/.config/",
-                "calls": ["config", "cf", "conf"]
-            },
-            {
-                "name": "python",
-                "description": "Python projects folder.",
-                "location": "~/Desktop/programming/python/",
-                "calls": ["py", "python"]
-            },
-            {
-                "name": "javascript_typescript",
-                "description": "Javascript and Typescript projects folder.",
-                "location": "~/Desktop/programming/javascript_typescript/",
-                "calls": ["js", "javascript", "ts", "typescript"]
-            },
-            {
-                "name": "c_c++",
-                "description": "C and C++ projects folder.",
-                "location": "~/Desktop/programming/c_c++/",
-                "calls": ["c", "c++", "cpp"]
-            },
-            {
-                "name": "rust",
-                "description": "Rust projects folder.",
-                "location": "~/Desktop/programming/rust/",
-                "calls": ["rust", "rs"]
-            },
-            {
-                "name": "dotfiles",
-                "description": "Dotfiles folder.",
-                "location": "~/.dotfiles/",
-                "calls": ["dotfiles", "df", ".files", ".f"]
-            },
-            {
-                "name": "desktop",
-                "description": "Desktop folder.",
-                "location": "~/Desktop",
-                "calls": ["dt", "desktop", "desk"]
-            }
-        ],
-        "options": {
-            "create_missing_directories": true
+    "shortcuts": [
+        {
+            "name": "config",
+            "description": "Config folder.",
+            "location": "~/.config/",
+            "calls": [
+                "config",
+                "cf",
+                "conf"
+            ]
+        },
+        {
+            "name": "python",
+            "description": "Python projects folder.",
+            "location": "~/Desktop/programming/python/",
+            "calls": [
+                "py",
+                "python"
+            ]
+        },
+        {
+            "name": "javascript_typescript",
+            "description": "Javascript and Typescript projects folder.",
+            "location": "~/Desktop/programming/javascript_typescript/",
+            "calls": [
+                "js",
+                "javascript",
+                "ts",
+                "typescript"
+            ]
+        },
+        {
+            "name": "c_c++",
+            "description": "C and C++ projects folder.",
+            "location": "~/Desktop/programming/c_c++/",
+            "calls": [
+                "c",
+                "c++",
+                "cpp"
+            ]
+        },
+        {
+            "name": "rust",
+            "description": "Rust projects folder.",
+            "location": "~/Desktop/programming/rust/",
+            "calls": [
+                "rust",
+                "rs"
+            ]
+        },
+        {
+            "name": "dotfiles",
+            "description": "Dotfiles folder.",
+            "location": "~/.dotfiles/",
+            "calls": [
+                "dotfiles",
+                "df",
+                ".files",
+                ".f"
+            ]
+        },
+        {
+            "name": "desktop",
+            "description": "Desktop folder.",
+            "location": "~/Desktop",
+            "calls": [
+                "dt",
+                "desktop",
+                "desk"
+            ]
+        },
+        {
+            "name": "scripts",
+            "description": "Scripts folder.",
+            "location": "~/Desktop/programming/scripts",
+            "calls": ["scripts", "sc"]
         }
+    ],
+    "options": {
+        "create_missing_directories": true
     }
+}

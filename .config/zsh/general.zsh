@@ -3,7 +3,7 @@
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git gitignore virtualenv python vi-mode)
+plugins=(git gitignore virtualenv python vi-mode common-aliases)
 
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
