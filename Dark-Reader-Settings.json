@@ -1,5 +1,6 @@
 {
     "enabled": true,
+    "fetchNews": true,
     "theme": {
         "mode": 1,
         "brightness": 100,
@@ -15,19 +16,18 @@
         "darkSchemeTextColor": "#f8f8f2",
         "lightSchemeBackgroundColor": "#dcdad7",
         "lightSchemeTextColor": "#181a1b",
-        "scrollbarColor": "#bd93f9",
+        "scrollbarColor": "",
         "selectionColor": "#44475a",
-        "styleSystemControls": true
+        "styleSystemControls": true,
+        "lightColorScheme": "Default",
+        "darkColorScheme": "Default"
     },
     "presets": [],
     "customThemes": [],
     "siteList": [],
-    "siteListEnabled": [
-        "draculatheme.com"
-    ],
+    "siteListEnabled": [],
     "applyToListedOnly": false,
-    "changeBrowserTheme": true,
-    "notifyOfNews": false,
+    "changeBrowserTheme": false,
     "syncSettings": true,
     "syncSitesFixes": false,
     "automation": "",
@@ -41,5 +41,6 @@
     },
     "previewNewDesign": true,
     "enableForPDF": true,
-    "enableForProtectedPages": true
+    "enableForProtectedPages": false,
+    "enableContextMenus": false
 }
