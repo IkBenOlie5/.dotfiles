@@ -1,0 +1,25 @@
+{
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "terminal.integrated.fontSize": 12,
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  //python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "tabnine.experimentalAutoImports": true,
+
+  // rust
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  },
+}
