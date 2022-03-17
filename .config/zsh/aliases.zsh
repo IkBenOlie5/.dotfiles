@@ -7,6 +7,7 @@ alias va="source ./.venv/bin/activate"
 alias vd="deactivate"
 alias py="python3.10"
 alias cat="bat"
+alias top="btop"
 alias mkd="mkdir"
 #brew services
 alias start="brew services start"
